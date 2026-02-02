@@ -36,7 +36,7 @@ function Counter() {
     setUser(prev => ({ ...prev, name: 'John' }));
   };
   
-  // Update array
+  // Update arrayy
   const addItem = (item) => {
     setItems(prev => [...prev, item]);
   };
